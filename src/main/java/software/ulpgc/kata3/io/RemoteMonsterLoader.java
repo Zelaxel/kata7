@@ -9,8 +9,9 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
-public class RemoteMonsterLoader implements MonsterLoader{
+public record RemoteMonsterLoader(Function<JSONObject, Monster> parser) implements MonsterLoader{
     @Override
     public List<Monster> loadAll() {
         try {
@@ -27,8 +28,7 @@ public class RemoteMonsterLoader implements MonsterLoader{
     }
 
     private List<Monster> loadFrom(JSONObject json) {
-        MonsterParser<JSONObject> parser = new JsonMonsterParser();
-        return toJsonList(json.getJSONArray("monsters")).stream().map(parser::parse).toList();
+        return toJsonList(json.getJSONArray("monsters")).stream().map(parser).toList();
     }
 
     private List<JSONObject> toJsonList(JSONArray jsonArray) {
