@@ -1,7 +1,7 @@
-package software.ulpgc.kata5.architecture.tasks;
+package software.ulpgc.kata6.architecture.tasks;
 
-import software.ulpgc.kata5.architecture.model.Monster;
-import software.ulpgc.kata5.architecture.viewModel.Histogram;
+import software.ulpgc.kata6.architecture.model.Monster;
+import software.ulpgc.kata6.architecture.viewModel.Histogram;
 
 import java.util.HashMap;
 import java.util.Map;

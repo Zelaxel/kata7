@@ -1,6 +1,6 @@
-package software.ulpgc.kata5.architecture.io;
+package software.ulpgc.kata6.architecture.io;
 
-import software.ulpgc.kata5.architecture.model.Monster;
+import software.ulpgc.kata6.architecture.model.Monster;
 
 import java.util.stream.Stream;
 

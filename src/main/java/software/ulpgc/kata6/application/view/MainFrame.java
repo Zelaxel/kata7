@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.application.view;
+package software.ulpgc.kata6.application.view;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
@@ -6,7 +6,7 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.CategoryLabelPositions;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
-import software.ulpgc.kata5.architecture.viewModel.Histogram;
+import software.ulpgc.kata6.architecture.viewModel.Histogram;
 
 import javax.swing.*;
 

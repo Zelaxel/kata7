@@ -1,8 +1,8 @@
-package software.ulpgc.kata5.application.io;
+package software.ulpgc.kata6.application.io;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import software.ulpgc.kata5.architecture.model.Monster;
+import software.ulpgc.kata6.architecture.model.Monster;
 
 import java.util.ArrayList;
 import java.util.List;

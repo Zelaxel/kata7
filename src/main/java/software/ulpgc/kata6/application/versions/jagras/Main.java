@@ -1,11 +1,11 @@
-package software.ulpgc.kata5.application.versions.jagras;
+package software.ulpgc.kata6.application.versions.jagras;
 
-import software.ulpgc.kata5.application.io.JsonParser;
-import software.ulpgc.kata5.application.io.RemoteStore;
-import software.ulpgc.kata5.application.view.MainFrame;
-import software.ulpgc.kata5.architecture.model.Monster;
-import software.ulpgc.kata5.architecture.tasks.HistogramBuilder;
-import software.ulpgc.kata5.architecture.viewModel.Histogram;
+import software.ulpgc.kata6.application.io.JsonParser;
+import software.ulpgc.kata6.application.io.RemoteStore;
+import software.ulpgc.kata6.application.view.MainFrame;
+import software.ulpgc.kata6.architecture.model.Monster;
+import software.ulpgc.kata6.architecture.tasks.HistogramBuilder;
+import software.ulpgc.kata6.architecture.viewModel.Histogram;
 
 import java.util.stream.Stream;
 
