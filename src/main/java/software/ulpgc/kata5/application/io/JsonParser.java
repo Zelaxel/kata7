@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.application;
+package software.ulpgc.kata5.application.io;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -7,7 +7,7 @@ import software.ulpgc.kata5.architecture.model.Monster;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JsonMonsterParser {
+public class JsonParser {
     public static Monster parse(JSONObject input) {
         return new Monster(
                 input.getString("name"),

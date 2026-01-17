@@ -1,8 +1,8 @@
-package software.ulpgc.kata5.application;
+package software.ulpgc.kata5.application.io;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import software.ulpgc.kata5.architecture.io.MonsterStore;
+import software.ulpgc.kata5.architecture.io.Store;
 import software.ulpgc.kata5.architecture.model.Monster;
 
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Stream;
 
-public record RemoteMonsterStore(Function<JSONObject, Monster> parser) implements MonsterStore {
+public record RemoteStore(Function<JSONObject, Monster> parser) implements Store {
     @Override
     public Stream<Monster> monsters() {
         try {

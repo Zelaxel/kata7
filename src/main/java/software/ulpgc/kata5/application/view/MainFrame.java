@@ -1,4 +1,4 @@
-package software.ulpgc.kata5.application;
+package software.ulpgc.kata5.application.view;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

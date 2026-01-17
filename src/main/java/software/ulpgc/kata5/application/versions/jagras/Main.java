@@ -1,5 +1,8 @@
-package software.ulpgc.kata5.application;
+package software.ulpgc.kata5.application.versions.jagras;
 
+import software.ulpgc.kata5.application.io.JsonParser;
+import software.ulpgc.kata5.application.io.RemoteStore;
+import software.ulpgc.kata5.application.view.MainFrame;
 import software.ulpgc.kata5.architecture.model.Monster;
 import software.ulpgc.kata5.architecture.tasks.HistogramBuilder;
 import software.ulpgc.kata5.architecture.viewModel.Histogram;
@@ -25,6 +28,6 @@ public class Main {
     }
 
     private static Stream<Monster> getMonsters() {
-        return new RemoteMonsterStore(JsonMonsterParser::parse).monsters();
+        return new RemoteStore(JsonParser::parse).monsters();
     }
 }
