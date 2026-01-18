@@ -41,4 +41,8 @@ public class Histogram<T> implements Iterable<T> {
     public String legend(){
         return labels.get("legend");
     }
+
+    public Map<T, Integer> map() {
+        return new HashMap<>(map);
+    }
 }
