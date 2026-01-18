@@ -1,7 +1,7 @@
-package software.ulpgc.kata6.application.io;
+package software.ulpgc.kata7.application.io;
 
-import software.ulpgc.kata6.application.pojos.HistogramPojo;
-import software.ulpgc.kata6.architecture.viewModel.Histogram;
+import software.ulpgc.kata7.application.pojos.HistogramPojo;
+import software.ulpgc.kata7.architecture.viewModel.Histogram;
 
 public class HistogramAdapter {
     public static <T> HistogramPojo<T> adapt(Histogram<T> histogram){

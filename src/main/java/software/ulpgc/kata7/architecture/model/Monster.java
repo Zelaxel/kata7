@@ -1,4 +1,4 @@
-package software.ulpgc.kata6.architecture.model;
+package software.ulpgc.kata7.architecture.model;
 
 import java.util.List;
 

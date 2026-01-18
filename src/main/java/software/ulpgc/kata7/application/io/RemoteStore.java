@@ -1,9 +1,9 @@
-package software.ulpgc.kata6.application.io;
+package software.ulpgc.kata7.application.io;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import software.ulpgc.kata6.architecture.io.Store;
-import software.ulpgc.kata6.architecture.model.Monster;
+import software.ulpgc.kata7.architecture.io.Store;
+import software.ulpgc.kata7.architecture.model.Monster;
 
 import java.io.IOException;
 import java.io.InputStream;

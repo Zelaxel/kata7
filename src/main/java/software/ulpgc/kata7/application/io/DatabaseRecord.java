@@ -1,7 +1,7 @@
-package software.ulpgc.kata6.application.io;
+package software.ulpgc.kata7.application.io;
 
-import software.ulpgc.kata6.architecture.io.Record;
-import software.ulpgc.kata6.architecture.model.Monster;
+import software.ulpgc.kata7.architecture.io.Record;
+import software.ulpgc.kata7.architecture.model.Monster;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

@@ -1,4 +1,4 @@
-package software.ulpgc.kata6.architecture.viewModel;
+package software.ulpgc.kata7.architecture.viewModel;
 
 import java.util.HashMap;
 import java.util.Iterator;

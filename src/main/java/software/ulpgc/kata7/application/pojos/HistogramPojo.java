@@ -1,4 +1,4 @@
-package software.ulpgc.kata6.application.pojos;
+package software.ulpgc.kata7.application.pojos;
 
 import java.util.Map;
 

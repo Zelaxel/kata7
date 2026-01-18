@@ -1,14 +1,13 @@
-package software.ulpgc.kata6.application.versions.barroth;
+package software.ulpgc.kata7.application.versions.barroth;
 
 import io.javalin.Javalin;
 import io.javalin.http.Context;
-import org.jetbrains.annotations.NotNull;
-import software.ulpgc.kata6.application.io.HistogramAdapter;
-import software.ulpgc.kata6.application.io.JsonParser;
-import software.ulpgc.kata6.application.io.RemoteStore;
-import software.ulpgc.kata6.architecture.model.Monster;
-import software.ulpgc.kata6.architecture.tasks.HistogramBuilder;
-import software.ulpgc.kata6.architecture.viewModel.Histogram;
+import software.ulpgc.kata7.application.io.HistogramAdapter;
+import software.ulpgc.kata7.application.io.JsonParser;
+import software.ulpgc.kata7.application.io.RemoteStore;
+import software.ulpgc.kata7.architecture.model.Monster;
+import software.ulpgc.kata7.architecture.tasks.HistogramBuilder;
+import software.ulpgc.kata7.architecture.viewModel.Histogram;
 
 import java.util.Optional;
 import java.util.stream.Stream;
