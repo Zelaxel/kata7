@@ -13,7 +13,7 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Javalin app = Javalin.create();
         app.get("/monsters", Main::monsters);
         app.get("/monster/{name}", Main::monster);

@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 
 public class Main {
     public static final File database = new File("monsters.db"); 
-    static void main() throws SQLException {
+    public static void main(String[] args) throws SQLException {
         try(Connection connection = openConnection()){
             fillDatabaseIfRequired(connection);
             Stream<Monster> monsters = new DatabaseStore(connection).monsters();

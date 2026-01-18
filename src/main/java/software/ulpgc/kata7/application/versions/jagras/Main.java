@@ -10,7 +10,7 @@ import software.ulpgc.kata7.architecture.viewModel.Histogram;
 import java.util.stream.Stream;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         MainFrame
                 .create()
                 .display(getHistogram())
