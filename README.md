@@ -1,9 +1,7 @@
-# Kata6
-Continuación de la kata 6. Implementacion de un web service.
+# Kata7
+Continuación de la kata 6. Implementacion del build para el ejecutable.
 ## Objetivos
-- **Uso de patrón adapter** Usar un patron adapter para mostrar un histograma en el web service.
-## Implementación
-Planteamos un web service con 3 funciones. Monstrar todos los mounstruos, Monstrar un mounstruo y enseñar el histograma de mounstruos por juego.
+- **Implementar un build en el pom.xml**.
 ## Fuentes
 - Archivo de los mounstruos.
   [monsters.json](https://github.com/CrimsonNynja/monster-hunter-DB/blob/master/monsters.json)
